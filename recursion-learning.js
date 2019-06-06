@@ -30,6 +30,17 @@
         return result;                           //  return 6
   }
 
+const factorial = (n) => {
+  let result = 1;
+
+  for (let counter = 1; counter <= n; counter++) {
+    result *=counter;
+  }
+
+  return result;
+}
+
+
 
   const sequenceSum = (begin, end) => {
    if (begin > end) {
@@ -51,3 +62,4 @@
     };
     return iter(num, 2);
   };
+
